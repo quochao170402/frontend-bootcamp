@@ -1,3 +1,5 @@
+<!-- Make responsive mobile design -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,31 +7,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <title>Pricing card</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container center-position border-radius">
 
         <div class="section-1">
-            <h2>Join our community</h2>
+            <h2 class="title">Join our community</h2>
             <h4>30-day, hassle-free money back guarantee</h4>
-            <p>
-                Gain access to our full library of tutorials along with expert code reviews.
-                Perfect for any developers who are serious about honing their skills.
-            </p>
+            <P>Gain access to our full library of tutorials along with expert code reviews.</P>
+            <p>Perfect for any developers who are serious about honing their skills. </p>
         </div>
 
         <div class="section-2">
+
             <div class="price">
-                <h4>Monthly Subscription</h4>
-                <p><span>&dollar;29</span>per month</p>
+                <h3>Monthly Subscription</h3>
+
+                <div class="money-container">
+                    <div class="money">&dollar;29</div>
+                    <div class="price-frequency">per month</div>
+                </div>
+
                 <p>Full access for less than &dollar;1 a day</p>
-                <button>Sign Up</button>
+                <button onclick="onSignUp()">Sign Up</button>
             </div>
 
             <div class="why-us">
-                <h4>Why Us</h4>
+                <h3>Why Us</h3>
                 <ol>
                     <li>Tutorials by industry experts</li>
                     <li>Peer &amp; expert code review</li>
@@ -41,8 +51,9 @@
                 </ol>
             </div>
         </div>
-
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
