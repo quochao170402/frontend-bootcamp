@@ -1,8 +1,8 @@
 :root {
-  --daniel-background: #733fc8;
-  --jonathan-background: #49556b;
+  --daniel-background: #7541c8;
+  --jonathan-background: #48556a;
   --jeanette-background: #ffffff;
-  --patrick-background: #171f2c;
+  --patrick-background: #19212e;
   --kira-background: #ffffff;
 }
 
@@ -10,6 +10,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 *,
@@ -19,15 +22,29 @@ body {
 }
 
 .main {
-  background-color: #edf2f8;
+  background-color: #ecf2f8;
 }
 
 .container {
   margin: 20px;
   border-radius: 8px;
   padding: 20px;
+}
 
-  /* width: 300px; */
+.personal-section {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.graduated {
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
 }
 
 .left-section {
