@@ -1,0 +1,60 @@
+:root {
+  --daniel-background: #733fc8;
+  --jonathan-background: #49556b;
+  --jeanette-background: #ffffff;
+  --patrick-background: #171f2c;
+  --kira-background: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main {
+  background-color: #edf2f8;
+}
+
+.container {
+  margin: 20px;
+  border-radius: 8px;
+  padding: 20px;
+
+  /* width: 300px; */
+}
+
+.left-section {
+  color: white;
+}
+
+.right-section {
+  color: #171f2c;
+}
+
+.daniel {
+  background-color: var(--daniel-background);
+}
+
+.jonathan {
+  background-color: var(--jonathan-background);
+}
+
+.jeanette {
+  background-color: var(--jeanette-background);
+  color: #171f2c;
+}
+
+.patrick {
+  background-color: var(--patrick-background);
+}
+
+.kira {
+  background-color: var(--kira-background);
+}
