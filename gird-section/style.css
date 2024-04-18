@@ -22,11 +22,40 @@ body {
 }
 
 .main {
+  padding: 180px;
   background-color: #ecf2f8;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 1440px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-section {
+  display: grid;
+  color: white;
+  margin-right: 20px;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 20px;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.right-section {
+  color: #171f2c;
 }
 
 .container {
-  margin: 20px;
   border-radius: 8px;
   padding: 20px;
 }
@@ -47,16 +76,9 @@ body {
   padding: 0;
 }
 
-.left-section {
-  color: white;
-}
-
-.right-section {
-  color: #171f2c;
-}
-
 .daniel {
   background-color: var(--daniel-background);
+  margin-right: 20px;
 }
 
 .jonathan {
@@ -66,6 +88,7 @@ body {
 .jeanette {
   background-color: var(--jeanette-background);
   color: #171f2c;
+  margin-right: 20px;
 }
 
 .patrick {
@@ -74,4 +97,10 @@ body {
 
 .kira {
   background-color: var(--kira-background);
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
