@@ -23,33 +23,33 @@ body {
 }
 
 .main {
-  padding: 180px;
+  /* padding: 180px; */
 
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  width: 80%;
+  /* grid-template-columns: 3fr 1fr;
+  width: 80%; */
 
   position: absolute;
-  top: 50%;
+  /* top: 50%;   */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
 }
 
 .left-section {
-  display: grid;
+  /* display: grid; */
   color: white;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .top-section {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-bottom: 20px;
+  /* display: grid;
+  grid-template-columns: 2fr 1fr; */
+  /* margin-bottom: 20px; */
 }
 
 .bottom-section {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* display: grid;
+  grid-template-columns: 1fr 2fr; */
 }
 
 .right-section {
@@ -59,6 +59,8 @@ body {
 .container {
   border-radius: 8px;
   padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 .personal-section {
