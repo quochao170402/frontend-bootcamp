@@ -26,30 +26,13 @@ body {
   /* padding: 180px; */
 
   display: grid;
-  /* grid-template-columns: 3fr 1fr;
-  width: 80%; */
-
   position: absolute;
-  /* top: 50%;   */
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 .left-section {
-  /* display: grid; */
   color: white;
-  /* margin-right: 20px; */
-}
-
-.top-section {
-  /* display: grid;
-  grid-template-columns: 2fr 1fr; */
-  /* margin-bottom: 20px; */
-}
-
-.bottom-section {
-  /* display: grid;
-  grid-template-columns: 1fr 2fr; */
 }
 
 .right-section {
