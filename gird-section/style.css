@@ -62,6 +62,7 @@ body {
 }
 
 .personal-section {
+  display: inline-block;
   margin-bottom: 10px;
 }
 
@@ -101,10 +102,6 @@ body {
   height: 100%;
 }
 
-.personal-section {
-  display: inline-block;
-}
-
 .title {
   margin-bottom: 10px;
   font-weight: bold;
@@ -119,4 +116,41 @@ body {
 .avt {
   border-radius: 50%;
   display: inline-block;
+}
+@media only screen and (max-width: 1000px) {
+  .main {
+    padding: 20px 180px 20px 180px;
+    display: grid;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    grid-template-rows: auto auto;
+    grid-template-columns: none;
+  }
+
+  .left-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: none;
+  }
+
+  .top-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: none;
+  }
+
+  .bottom-section {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: none;
+  }
+
+  .container {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
 }
