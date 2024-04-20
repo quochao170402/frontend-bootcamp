@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  background-color: navajowhite;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid yellowgreen;
+  border-radius: 2px;
+  margin: 5px;
+
+  padding: 20px;
+}
+
+.item-5 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  height: auto;
+  width: auto;
+}
+
+.item-1 {
+  height: auto;
+  width: auto;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item-2 {
+  width: auto;
+}
+
+.item-4 {
+  width: auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item-3 {
+  height: auto;
+  width: auto;
+}
