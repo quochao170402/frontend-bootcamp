@@ -1,0 +1,159 @@
+:root {
+  --daniel-background: #7541c8;
+  --jonathan-background: #48556a;
+  --jeanette-background: #ffffff;
+  --patrick-background: #19212e;
+  --kira-background: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #ecf2f8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main {
+  padding: 180px;
+
+  display: flex;
+  flex-direction: row;
+  /* width: 80%; */
+}
+
+.center-container {
+  margin: 0 auto;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 75%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-section {
+  color: #171f2c;
+  width: 25%;
+}
+
+.container {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.personal-section {
+  display: inline-block;
+}
+
+.name {
+  font-weight: bolder;
+  padding: 0;
+}
+
+.graduated {
+  opacity: 0.5;
+  padding: 0;
+}
+
+.daniel {
+  background-color: var(--daniel-background);
+  margin-right: 20px;
+}
+
+.jonathan {
+  background-color: var(--jonathan-background);
+}
+
+.jeanette {
+  background-color: var(--jeanette-background);
+  color: #171f2c;
+  margin-right: 20px;
+}
+
+.patrick {
+  background-color: var(--patrick-background);
+}
+
+.kira {
+  background-color: var(--kira-background);
+  height: 100%;
+  /* width: 300px; */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.name-section {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+}
+
+.avt {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+    /* width: auto; */
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+
+  .container {
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
