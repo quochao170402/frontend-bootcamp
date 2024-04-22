@@ -5,30 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <title>Product Card</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="images/logo.svg" alt="">
+        <div class="left-section">
+            <div class="logo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="menu">
+                <div class="menu-item">Collections</div>
+                <div class="menu-item">Men</div>
+                <div class="menu-item">Women</div>
+                <div class="menu-item">About</div>
+                <div class="menu-item">Contact</div>
+            </div>
         </div>
-        <div class="menu">
-            <ul>
-                <li>Collections</li>
-                <li>Men</li>
-                <li>Women</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div class="cart">
-            <img src="images/icon-cart.svg" alt="">
-        </div>
-        <div class="avatar">
-            <img src="images/image-avatar.png" alt="">
+
+        <div class="right-section">
+            <div class="cart">
+                <img src="images/icon-cart.svg" alt="">
+            </div>
+            <div class="avatar">
+                <img class="avatar-image" src="images/image-avatar.png" alt="">
+            </div>
         </div>
     </header>
+
     <main>
         <div class="image-container">
             <div class="thumbnail">
@@ -44,13 +52,19 @@
         <div class="description-container">
             <div class="description">
                 <h4>SNEAKER COMPANY</h4>
-                <h1>Fall Limited Edition Sneakers</h1>
-                <p>These low-profile ............</p>
+                <div class="product-name">Fall Limited Edition Sneakers</div>
+                <p>
+                    These low-profile sneakers are your perfect casual wear companion. Featuring a
+                    durable rubber outer sole, they’ll withstand everything the weather can offer.
+                </p>
             </div>
+            
             <div class="price">
-                <h2>$125.00</h2>
-                <h3>50%</h3>
-                <p>$250.00</p>
+                <div class="paid-price">
+                    <i class="fa fa-dollar"></i>125.00
+                </div>
+                <div class="discount">50%</div>
+                <div class="competitive-price"><i class="fa fa-dollar"></i>250.00</div>
             </div>
             <div class="button-container">
                 <input type="number" name="" id="" class="quantity">
