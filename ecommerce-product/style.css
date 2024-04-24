@@ -29,9 +29,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 200px;
-
-  margin-top: -35px;
+  height: 100px;
 }
 
 .left-section {
@@ -78,14 +76,13 @@ main {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
 }
 
 .image-container {
   display: grid;
   grid-template-rows: 5fr 1fr;
 
-  margin: 50px;
+  margin: 50px 25px 0 50px;
 }
 
 .thumbnail {
@@ -119,7 +116,7 @@ main {
 }
 
 .description-container {
-  margin: 50px;
+  margin: 50px 0 0 25px;
 }
 
 .description {
@@ -173,11 +170,6 @@ main {
   color: var(--dark-grayish-blue);
 }
 
-.button-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
 .quantity-container {
   font-weight: 500;
   display: grid;
@@ -198,6 +190,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
 }
 
 .decrease {
@@ -226,7 +223,7 @@ button {
   cursor: pointer;
   font-weight: 400;
   height: 50px;
-  width: 300px;
+
   border: none;
   border-radius: 10px;
 }
