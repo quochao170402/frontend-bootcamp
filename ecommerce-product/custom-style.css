@@ -70,7 +70,7 @@ nav {
   height: 100%;
   position: relative;
 }
-.nav-link:hover::after {
+.nav-link:hover::before {
   background-color: var(--Orange);
   display: block;
   width: 100%;
@@ -205,13 +205,56 @@ main {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  gap: 1rem;
 }
 .amount-btn {
-  /* width: 100%; */
+  background-color: var(--Light-grayish-blue);
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  padding: 1rem;
+}
+.amount-btn button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 .amount {
-
+  font-weight: bold;
 }
-.add_btn {
-  /* width: 100%; */
+
+.add-btn {
+  cursor: pointer;
+  border: none;
+  background-color: var(--Orange);
+  border-radius: 7px;
+  width: 65%;
+  padding: 1rem;
+
+  color: white;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.add-btn img {
+  filter: brightness(5);
+}
+
+.add-btn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    position: relative;
+  }
 }
