@@ -7,75 +7,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Todo</title>
 </head>
 
 <body>
     <div class="background"></div>
-    <div class="header">
-        <div class="title">TODO</div>
-        <div class="theme">
+    <div class="container">
+        <div class="header">
+            <h1 class="title">TODO</h1>
             <img src="images/icon-sun.svg" alt="">
         </div>
-    </div>
-    <div class="main">
-        <div class="form-container">
-            <form action="" class="todo-form">
-                <input type="radio" name="" id="">
+        <div class="main">
+            <div class="form-container">
+                <button></button>
                 <input type="text" name="" id="new-todo" placeholder="Create new todo...">
-            </form>
-        </div>
-        <div class="todo-list">
-            <div class="todo-item">
-                <label class="list">
-                    <input class="checkbox" type="checkbox">
-                    <span class="content">Do</span>
-                </label>
-                <span class="remove-button"></span>
             </div>
-            <div class="todo-item">
-                <label class="list">
+            <div class="todo-list">
+                <div class="todo-item">
+                    <div class="todo">
+                        <input class="checkbox" type="checkbox" id="todo">
+                        <span class="content">kljashdlgjabdsgljasdb</span>
+                    </div>
+                    <span class="remove-button"></span>
+                </div>
+                <div class="todo-item">
                     <input class="checkbox" type="checkbox">
                     <span class="content">Do</span>
-                </label>
-                <span class="remove-button"></span>
-            </div>
-            <div class="todo-item">
-                <label class="list">
+                    <span class="remove-button"></span>
+                </div>
+                <div class="todo-item">
                     <input class="checkbox" type="checkbox">
                     <span class="content">Do</span>
-                </label>
-                <span class="remove-button"></span>
-            </div>
-            <div class="todo-item">
-                <label class="list">
+                    <span class="remove-button"></span>
+                </div>
+                <div class="todo-item">
                     <input class="checkbox" type="checkbox">
                     <span class="content">Do</span>
-                </label>
-                <span class="remove-button"></span>
-            </div>
-            <div class="todo-item">
-                <label class="list">
+                    <span class="remove-button"></span>
+                </div>
+                <div class="todo-item">
                     <input class="checkbox" type="checkbox">
                     <span class="content">Do</span>
-                </label>
-                <span class="remove-button"></span>
+                    <span class="remove-button"></span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <div class="todo-action-container">
-            <div class="total">
-                5 items left
-            </div>
-            <div class="action-container">
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
-            </div>
-            <div class="clear-container">
-                Clear Completed
+        <div class="footer">
+            <div class="todo-action-container">
+                <div class="total">
+                    5 items left
+                </div>
+                <div class="action-container">
+                    <button>All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                </div>
+                <div class="clear-container">
+                    Clear Completed
+                </div>
             </div>
         </div>
     </div>
